@@ -44,12 +44,12 @@ public class PlayerShoot : MonoBehaviour
                 if (head)
                 {
                     clone.SendMessage("setVector2", new Vector2(-1, 0));
-                    GameObject.Find(clone.name).SendMessage("setVector2", new Vector2(-1, 0));
+                    //GameObject.Find(clone.name).SendMessage("setVector2", new Vector2(-1, 0));
                 }
                 else
                 {
                     clone.SendMessage("setVector2", new Vector2(1, 0));
-                    GameObject.Find(clone.name).SendMessage("setVector2", new Vector2(1, 0));
+                    //GameObject.Find(clone.name).SendMessage("setVector2", new Vector2(1, 0));
                 }
                 
             }
